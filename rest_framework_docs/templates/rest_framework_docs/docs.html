@@ -1,3 +1,25 @@
 {% extends "rest_framework_docs/base.html" %}
 
-{# Override this template in your own templates directory to customize #}
+{% block title %}2016 Mei-Chu Hackathon: Tagtoo API Documentation{% endblock %}
+{% block logo %}<a class="navbar-brand" href="#"">2016 Mei-Chu Hackathon: Tagtoo API Documentation</a>{% endblock %}
+
+{% block jumbotron %}
+<div class="jumbotron">
+    <h1><a href="http://hackathon.nctu.edu.tw/2016/" target="_blank">2016 Mei-Chu Hackathon</a>:</h1>
+    <h1><a href="http://www.tagtoo.com.tw/" target="_blank">Tagtoo</a> API Documentation</h1>
+  <h3>Documentation made with <a href="http://www.django-rest-framework.org/" target="_blank">Django REST Framework</a> and <a href="http://drfdocs.com/" target="_blank">DRF Docs</a>.</h3>
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="footer">
+	<div class="links">
+	  <a href="http://www.tagtoo.com.tw/"><i class="fa fa-link"></i></a>
+	  <a href="https://www.facebook.com/TagtooAD"><i class="fa fa-facebook"></i></a>
+	  <a href="http://www.github.com/Tagtoo"><i class="fa fa-github"></i></a>
+	</div>
+	Copyright © 2016 <a href="http://www.tagtoo.com.tw/" target="_blank">Tagtoo</a>.
+</div>
+{% endblock %}
+
+{% block github_badge %}{% endblock %}
